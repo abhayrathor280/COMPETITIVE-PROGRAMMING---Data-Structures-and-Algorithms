@@ -29,6 +29,7 @@ int main(){
                 val++;
             }
             rem-=cnt*i;
+            if(rem==0)break;
         }
         cout<<ans<<endl;
         for(ll i =0;i<n;i++){
